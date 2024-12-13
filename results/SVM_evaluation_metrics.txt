@@ -1,0 +1,23 @@
+Accuracy: 44.95%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       anger       0.00      0.00      0.00        27
+        fear       0.18      0.59      0.28        17
+       happy       1.00      0.44      0.61        39
+     neutral       0.41      0.76      0.53        45
+         sad       0.00      0.00      0.00        26
+    surprise       0.70      0.64      0.67        44
+
+    accuracy                           0.45       198
+   macro avg       0.38      0.40      0.35       198
+weighted avg       0.46      0.45      0.41       198
+
+Confusion Matrix:
+[[ 0  9  0 17  0  1]
+ [ 0 10  0  6  0  1]
+ [ 0  9 17 10  0  3]
+ [ 0  9  0 34  0  2]
+ [ 2  9  0 10  0  5]
+ [ 1  9  0  6  0 28]]

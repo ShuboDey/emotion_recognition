@@ -1,0 +1,24 @@
+Evaluation Metrics for Decision Tree Classifier
+--------------------------------------------------
+Accuracy: 30.32%
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.17      0.25      0.20        48
+           1       0.10      0.13      0.11        30
+           2       0.46      0.27      0.34        78
+           3       0.27      0.31      0.29        86
+           4       0.31      0.24      0.27        51
+           5       0.48      0.46      0.47        83
+
+    accuracy                           0.30       376
+   macro avg       0.30      0.28      0.28       376
+weighted avg       0.33      0.30      0.31       376
+
+Confusion Matrix:
+[[12  8  4 13  4  7]
+ [ 6  4  4 12  3  1]
+ [18  3 21 22  6  8]
+ [12 11  7 27  7 22]
+ [ 9  7  8 12 12  3]
+ [13  8  2 15  7 38]]
